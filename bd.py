@@ -3,7 +3,7 @@ from CTkMessagebox import CTkMessagebox
 
 def connect():
     try:
-        uri = ""
+        uri = "mongodb+srv://root:Bb4iuGBz46mB3Ioq@mongodb.hfi0yre.mongodb.net/?retryWrites=true&w=majority&appName=mongoDB"
         db = MongoClient(uri)
         return db["security_pay"]
     except Exception as e:
