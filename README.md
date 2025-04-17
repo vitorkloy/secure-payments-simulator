@@ -39,5 +39,5 @@ Dados sensíveis (como número do cartão e CVV) são criptografados antes do ar
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/sistema-pagamentos.git
-cd sistema-pagamentos
+git clone https://github.com/seu-usuario/secure-payments-simulator.git
+cd secure-payments-simulator
