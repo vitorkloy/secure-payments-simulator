@@ -1,14 +1,15 @@
 # Sistema de Pagamentos com Interface Gráfica
 
-## 📋 Descrição
+## Descrição
+
 Um projeto de sistema de pagamentos desenvolvido em Python para um trabalho acadêmico/prático. Utiliza a biblioteca `customtkinter` para a interface gráfica e o  `MongoDB`  como banco de dados. O sistema permite:
 
-- 💳 Cadastro, listagem e exclusão segura de cartões
-- 💵 Simulação de pagamentos
-- 📊 Extrato de transações
-- 🛡️ Criptografia de dados sensíveis (cartões, CVV)
+- Cadastro, listagem e exclusão segura de cartões
+- Simulação de pagamentos
+- Extrato de transações
+- Criptografia de dados sensíveis (cartões, CVV)
 
-## 🔑 Funcionalidades Principais
+## Funcionalidades Principais
 
 ### 1. Gerenciamento de Cartões
 - **Cadastro**: Valida e criptografa número, CVV e validade
@@ -19,7 +20,8 @@ Um projeto de sistema de pagamentos desenvolvido em Python para um trabalho acad
 - **Pagamentos**: Processa transações com validação de valor
 - **Extrato**: Exibe histórico completo de transações (cartão, valor, data/hora)
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
+
 | Tecnologia | Finalidade |
 |------------|------------|
 | Python 3.x | Linguagem principal |
@@ -29,12 +31,13 @@ Um projeto de sistema de pagamentos desenvolvido em Python para um trabalho acad
 | Hashlib | Geração de hash para transações |
 | python-dotenv | Gerenciamento de variáveis de ambiente |
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
+
 - Python 3.10 ou superior
 - MongoDB Atlas ou local
 - Bibliotecas listadas em `requirements.txt`
 
-## 🔒 Configuração do Ambiente (.env)
+## Configuração do Ambiente (.env)
 
 Crie um arquivo `.env` na raiz do projeto com:
 
@@ -42,7 +45,7 @@ Crie um arquivo `.env` na raiz do projeto com:
 MONGODB_URI=sua_string_de_conexao_mongodb_aqui
 ```
 
-## 🚀 Instalação e Execução
+## Instalação e Execução
 
 1. Clone o repositório:
 ```bash
