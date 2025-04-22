@@ -52,7 +52,7 @@ MONGODB_URI=sua_string_de_conexao_mongodb_aqui
 git clone https://github.com/seu-usuario/secure-payments-simulator.git
 cd secure-payments-simulator
 ```
-2. Instale a dependência com pip:
+2. Instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
