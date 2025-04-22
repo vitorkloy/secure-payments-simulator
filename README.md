@@ -1,4 +1,4 @@
-# Sistema de Pagamentos com Interface Gráfica
+# Sistema de Pagamentos em Python com Interface Gráfica
 
 ## Descrição
 
