@@ -1,6 +1,6 @@
 # Sistema de Pagamentos com Interface Gráfica
 
-## Descrição
+## 📋 Descrição
 Um projeto de sistema de pagamentos desenvolvido em Python para um trabalho acadêmico/prático. Utiliza a biblioteca `customtkinter` para a interface gráfica e o  `MongoDB`  como banco de dados. O sistema permite:
 
 - 💳 Cadastro, listagem e exclusão segura de cartões
