@@ -9,6 +9,8 @@ Um projeto de sistema de pagamentos desenvolvido em Python para um trabalho acad
 - Extrato de transações
 - Criptografia de dados sensíveis (cartões, CVV)
 
+---
+
 ## Funcionalidades Principais
 
 ### 1. Gerenciamento de Cartões
@@ -19,6 +21,8 @@ Um projeto de sistema de pagamentos desenvolvido em Python para um trabalho acad
 ### 2. Operações Financeiras
 - **Pagamentos**: Processa transações com validação de valor
 - **Extrato**: Exibe histórico completo de transações (cartão, valor, data/hora)
+
+---
 
 ## Tecnologias Utilizadas
 
@@ -31,11 +35,15 @@ Um projeto de sistema de pagamentos desenvolvido em Python para um trabalho acad
 | Hashlib | Geração de hash para transações |
 | python-dotenv | Gerenciamento de variáveis de ambiente |
 
+---
+
 ## Pré-requisitos
 
 - Python 3.10 ou superior
 - MongoDB Atlas ou local
 - Bibliotecas listadas em `requirements.txt`
+
+---
 
 ## Configuração do Ambiente (.env)
 
@@ -44,6 +52,8 @@ Crie um arquivo `.env` na raiz do projeto com:
 ```env
 MONGODB_URI=sua_string_de_conexao_mongodb_aqui
 ```
+
+---
 
 ## Instalação e Execução
 
@@ -61,3 +71,15 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+---
+
+## Imagens
+
+![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/frame_cards.png)
+![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/frame_payments.png)
+![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/cadastrarCartao.png)
+![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/listarCartoes.png)
+![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/deletarCartao.png)
+![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/fazerPagamento.png)
+![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/listarPagamentos.png)
