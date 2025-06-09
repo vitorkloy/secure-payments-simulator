@@ -76,10 +76,4 @@ python main.py
 
 ## Imagens
 
-![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/frame_cards.png)
-![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/frame_payments.png)
-![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/cadastrarCartao.png)
-![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/listarCartoes.png)
-![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/deletarCartao.png)
-![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/fazerPagamento.png)
-![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/listarPagamentos.png)
+![Interface do sistema]()
