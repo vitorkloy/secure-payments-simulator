@@ -76,12 +76,12 @@ python main.py
 
 ## Imagens
 
-#### Tela inicial
+### Tela inicial
 ![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/inicio.png)
 
 ---
 
-#### Área dos cartões:
+### Área dos cartões:
 ![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/frame_cartoes.png)
 ![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/cadastrar_cartao.png)
 ![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/listar_cartoes.png)
@@ -89,7 +89,7 @@ python main.py
 
 ---
 
-#### Área de pagamentos:
+### Área de pagamentos:
 ![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/frame_pagamentos.png)
 ![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/fazer_pagamento.png)
 ![Interface do sistema](https://github.com/vitorkloy/secure-payments-simulator/blob/main/images/listar_pagamentos.png)
