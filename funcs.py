@@ -6,15 +6,27 @@ from validacoes import validarCadastro, validarDelecao, validarPagamento
 from cryptography.fernet import Fernet
 import os
 
-conn = connect()
-cards = conn["cartoes"]
-pay = conn["pagamentos"]
-if os.path.exists("key.key"):
-    keyfile = open("key.key", "rb")
+
+
+try:
+    conn = connect()
+    cards = conn["cartoes"]  # Coleção para cartões
+    pay = conn["pagamentos"]  # Coleção para pagamentos
+except Exception as e:
+    print(f"Erro: {e}")
+    CTkMessagebox(title="Erro", icon="cancel", message=f"Falha na conexão com o banco de dados: {str(e)}")
+    exit()
+
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+key_path = os.path.join(script_dir, "key.key")
+
+if os.path.exists(key_path):
+    keyfile = open(key_path, "rb")
     key = keyfile.read()
 else:
     key = Fernet.generate_key()
-    keyfile = open("key.key", "wb")
+    keyfile = open(key_path, "wb")
     keyfile.write(key)
 
 fr = Fernet(key)

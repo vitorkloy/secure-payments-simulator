@@ -25,10 +25,10 @@ label_menu = ctk.CTkLabel(menu_frame, text="Menu", font=("Arial", 20))
 label_menu.pack(pady=10)
 
 btn_cartoes = ctk.CTkButton(menu_frame, text="Cartões", command=show_cartao)
-btn_cartoes.pack(pady=10)
+btn_cartoes.pack(pady=10, padx=10)
 
 btn_pagamento = ctk.CTkButton(menu_frame, text="Pagamentos", command=show_pagamento)
-btn_pagamento.pack(pady=10)
+btn_pagamento.pack(pady=10, padx=10)
 
 main_frame = ctk.CTkFrame(root)
 main_frame.pack(side="right", fill="both", expand=True)
