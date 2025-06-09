@@ -16,7 +16,7 @@ root.minsize(1000, 700)
 # Estilos avançados
 font_title = ("Helvetica", 20, "bold")
 font_subtitle = ("Helvetica", 16)
-font_normal = ("Helvetica", 14)
+font_normal = ("Helvetica", 15)
 button_style = {
     "font": font_normal,
     "height": 45,
@@ -78,9 +78,22 @@ btn_pagamento = ctk.CTkButton(menu_frame,
                              **btn_style)
 btn_pagamento.pack(pady=8, padx=20)
 
+
 # Frame principal
 main_frame = ctk.CTkFrame(root, fg_color=("#f5f5f5", "#1a1a1a"), corner_radius=0)
 main_frame.pack(side="right", fill="both", expand=True)
+
+
+# boas vindas
+mensage_frame = ctk.CTkFrame(main_frame, fg_color="transparent")
+mensage_frame.pack(pady=(200, 100))
+
+ctk.CTkLabel(mensage_frame, text="Seja", 
+            font=("Helvetica", 50, "bold"), 
+            text_color="white").pack(anchor="w")
+ctk.CTkLabel(mensage_frame, text="Bem-Vindo!", 
+            font=("Helvetica", 50, "bold"), 
+            text_color="#2b8be0").pack(anchor="w")
 
 # Footer
 footer_label = ctk.CTkLabel(menu_frame, 
